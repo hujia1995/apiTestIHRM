@@ -1,0 +1,14 @@
+2019-12-06 14:54:38,529 INFO [root] [__init__.py(<module>:7)] - test
+2019-12-06 14:54:57,076 INFO [root] [__init__.py(<module>:7)] - test
+2019-12-06 14:55:10,242 INFO [root] [__init__.py(<module>:7)] - test
+2019-12-06 14:55:10,534 INFO [root] [test_ihrm_login_parameterized.py(test01_login_success:28)] - 登陆接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '80a32d76-a416-4bc4-a2b5-25465d5f3275'}
+2019-12-06 14:55:10,622 INFO [root] [test_ihrm_login_parameterized.py(test01_login_success:28)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 14:55:10,707 INFO [root] [test_ihrm_login_parameterized.py(test01_login_success:28)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 14:55:10,798 INFO [root] [test_ihrm_login_parameterized.py(test01_login_success:28)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 14:55:10,879 INFO [root] [test_ihrm_login_parameterized.py(test01_login_success:28)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 14:55:29,770 INFO [root] [__init__.py(<module>:7)] - test
+2019-12-06 14:55:30,068 INFO [root] [test_ihrm_login_parameterized.py(test01_login_success:27)] - 登陆接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c56e4edf-419f-4ac8-b748-47c36ab21e61'}
+2019-12-06 14:55:30,157 INFO [root] [test_ihrm_login_parameterized.py(test01_login_success:27)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 14:55:30,239 INFO [root] [test_ihrm_login_parameterized.py(test01_login_success:27)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 14:55:30,326 INFO [root] [test_ihrm_login_parameterized.py(test01_login_success:27)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 14:55:30,406 INFO [root] [test_ihrm_login_parameterized.py(test01_login_success:27)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}

@@ -1,0 +1,14 @@
+2019-12-06 15:59:26,422 INFO [root] [__init__.py(<module>:7)] - test
+2019-12-06 15:59:26,730 INFO [root] [test_ihrm_login.py(test01_login_success:26)] - 登陆接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'f6652f69-c953-4e9c-8d7e-e8b97bebca33'}
+2019-12-06 15:59:26,730 INFO [root] [test_ihrm_login.py(test01_login_success:43)] - 保存的登陆token和content-type： {'Content-Type': 'application/json', 'Authorization': 'Bearer f6652f69-c953-4e9c-8d7e-e8b97bebca33'}
+2019-12-06 15:59:26,818 INFO [root] [test_ihrm_login.py(test02_mobile_is_error:49)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 15:59:26,903 INFO [root] [test_ihrm_login.py(test03_password_is_error:57)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 15:59:26,989 INFO [root] [test_ihrm_login.py(test04_none_params:65)] - 登陆接口返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 15:59:27,071 INFO [root] [test_ihrm_login.py(test05_mobile_is_none:73)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 15:59:27,154 INFO [root] [test_ihrm_login.py(test06_password_is_none:81)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 15:59:27,240 INFO [root] [test_ihrm_login.py(test07_extra_params:89)] - 登陆接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'e9bad3c6-94cd-49ae-b058-fe1966b16344'}
+2019-12-06 15:59:27,325 INFO [root] [test_ihrm_login.py(test08_less_params:97)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 15:59:27,421 INFO [root] [test_irhm_emp_parameterized.py(test01_add_emp:31)] - 添加员工接口返回的数据为： {'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 15:59:27,509 INFO [root] [test_irhm_emp_parameterized.py(test02_query_emp:51)] - 查询员工接口返回的数据为： {'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 15:59:27,594 INFO [root] [test_irhm_emp_parameterized.py(test03_modify_emp:60)] - 修改员工接口返回的数据为： {'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 15:59:27,676 INFO [root] [test_irhm_emp_parameterized.py(test04_delete_emp:80)] - 删除员工接口返回的数据为： {'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}

@@ -1,0 +1,2 @@
+2019-12-06 14:51:03,826 INFO [root] [__init__.py(<module>:7)] - test
+2019-12-06 14:51:04,092 INFO [root] [test_ihrm_login_parameterized.py(test01_login_success:26)] - 登陆接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'e2127d7b-205e-431c-9d06-ee8b1c4b9e62'}

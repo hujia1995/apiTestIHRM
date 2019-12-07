@@ -1,0 +1,16 @@
+2019-12-06 12:16:27,400 INFO [root] [__init__.py(<module>:7)] - test
+2019-12-06 12:16:27,663 INFO [root] [test_ihrm_login.py(test01_login_success:26)] - 登陆接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'b91d4c12-3d61-458c-85b5-bdf7cf3b4e3d'}
+2019-12-06 12:16:27,664 INFO [root] [test_ihrm_login.py(test01_login_success:43)] - 保存的登陆token和content-type： {'Content-Type': 'application/json', 'Authorization': 'Bearer b91d4c12-3d61-458c-85b5-bdf7cf3b4e3d'}
+2019-12-06 12:16:27,747 INFO [root] [test_ihrm_login.py(test02_mobile_is_error:49)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:16:27,832 INFO [root] [test_ihrm_login.py(test03_password_is_error:57)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:16:27,925 INFO [root] [test_ihrm_login.py(test04_none_params:65)] - 登陆接口返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 12:16:28,022 INFO [root] [test_ihrm_login.py(test05_mobile_is_none:73)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:16:28,121 INFO [root] [test_ihrm_login.py(test06_password_is_none:81)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:16:28,205 INFO [root] [test_ihrm_login.py(test07_extra_params:89)] - 登陆接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '3559659e-df1c-4135-b2db-70098a698637'}
+2019-12-06 12:16:28,293 INFO [root] [test_ihrm_login.py(test08_less_params:97)] - 登陆接口返回数据为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2019-12-06 12:16:28,380 INFO [root] [test_ihrm_emp.py(test01_add_emp:29)] - 添加员工接口返回的数据为： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202803973438132224'}}
+2019-12-06 12:16:28,381 INFO [root] [test_ihrm_emp.py(test01_add_emp:42)] - 保存的员工ID： 1202803973438132224
+2019-12-06 12:16:28,466 INFO [root] [test_ihrm_emp.py(test02_query_emp:48)] - 查询员工接口返回的数据为： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202803973438132224', 'mobile': '16789890329', 'username': '哪吒superman013', 'password': '3c332be4dbf3456ac00da8131547cc66', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066238836272664576', 'timeOfEntry': '2019-11-05T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '111', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-29T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '财务部', 'roleIds': [], 'staffPhoto': None}}
+2019-12-06 12:16:28,556 INFO [root] [test_ihrm_emp.py(test03_modify_emp:57)] - 修改员工接口返回的数据为： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202803973438132224'}}
+2019-12-06 12:16:28,754 INFO [root] [test_ihrm_emp.py(test03_modify_emp:68)] - ----------------查询数据库中员工id为1202803973438132224 的username是：奥特曼
+2019-12-06 12:16:28,848 INFO [root] [test_ihrm_emp.py(test04_delete_emp:77)] - 删除员工接口返回的数据为： {'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
